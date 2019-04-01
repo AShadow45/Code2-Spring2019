@@ -25,12 +25,13 @@ class Button{
     button2BG = color(255, 200, 230);
     button2Text = "button 2 pressed!";
     
-    bgColor = color(230);
+    bgColor = color(190);
     buttonSize = 125;
     //textToShow = "";
   }
   
   void display(){
+    background(bgColor);
     if (dist(mouseX, mouseY, button1x, button1y) < buttonSize/2 && mousePressed) {
       textToShow = button1Text;
       bgColor = button1BG;
