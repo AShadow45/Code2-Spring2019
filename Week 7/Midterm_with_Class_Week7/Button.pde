@@ -25,7 +25,7 @@ class Button{
     button2BG = color(255, 200, 230);
     button2Text = "button 2 pressed!";
     
-    bgColor = color(190);
+    bgColor = color(100);
     buttonSize = 125;
     //textToShow = "";
   }
